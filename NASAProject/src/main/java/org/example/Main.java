@@ -13,7 +13,7 @@ import java.io.IOException;
 
 public class Main {
     public static final String url = "https://api.nasa.gov/planetary/apod?api_key=ojmVIFTUdRRm8kDaqPcHZKBEGVwsgIn6IaLOFt9B";
-    public static final String path = "ASAImage/";
+    public static final String path = "NASAImage/";
     public static final ObjectMapper mapper = new ObjectMapper();
 
     public static void main(String[] args) throws IOException {
